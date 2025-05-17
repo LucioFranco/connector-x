@@ -81,3 +81,6 @@ srcs = [
   "connectorx/src_trino",
 ]
 integrated-auth-gssapi = ["connectorx/integrated-auth-gssapi"]
+
+[patch.crates-io]
+libgssapi-sys = { git = "https://github.com/LucioFranco/libgssapi", branch = "test" }
