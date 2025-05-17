@@ -11,3 +11,6 @@ lto = true
 arrow = {version = "54", features = ["prettyprint", "ffi"]}
 polars = {version = "0.45", features=["dtype-u8", "dtype-u16", "lazy"]}
 polars-arrow = {version = "0.45"}
+
+[patch.crates-io]
+libgssapi-sys = { git = "https://github.com/LucioFranco/libgssapi", branch = "test" }
